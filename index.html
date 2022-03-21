@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbdf309cb4.js" crossorigin="anonymous"></script>
+    
+    <title>Paper game</title>
+</head>
+<body>
+    <div class="container">
+        <header>Game</header>
+            <main class="container__main">
+            <aside class="container__left">
+                    <div>
+                        <span>Player score:</span><h3 class="p-count count">0</h3>
+                    </div>
+                    <div>
+                        <span>Computer score:</span><h3 class="c-count count">0</h3>
+                    </div>
+                    <div class="movesleft">
+                        Moves Left: 10 
+                    </div>
+                    
+            </aside>
+            <article class="container__middle">
+                <div>PC VS You</div> 
+                <p id="vs"><span class="PC">🐸</span> | <span class="You">🐻</span></p>
+                <div class="result"></div>
+                <div class="reload"></div>
+            </article>
+            <nav class="container__right">
+                <div class="container__choose">
+                    <div class="btn rock">✊</div>
+                    <div class="btn scissor" >✌️</div>
+                    <div class="btn paper" >🖐️</div>
+                </div>
+                <div class="dark-box">
+                    <div>
+                    <i class="fa-solid fa-moon"></i>
+                    </div>
+                    <label class="switch">
+                        
+                        <input type="checkbox" >
+                        <span class="slider round" onclick="darkmode()"></span>
+                        
+                    </label>
+        
+                </div>
+            </nav>
+            </main>
+            <footer>made by Rutchaphon Kidkarn @2022</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
